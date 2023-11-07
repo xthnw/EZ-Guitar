@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mylayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main2_guide">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="942dp"
+        android:layout_height="513dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/selectpart" />
+
+    <TextView
+        android:id="@+id/choose_chord_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE LESSON"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1002dp"
+        android:layout_height="623dp"
+        android:alpha="0.4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/superblack" />
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/button_exer"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861"
+        app:sparkbutton_activeImage="@drawable/text_exer_black"
+        app:sparkbutton_iconSize="163dp"
+        app:sparkbutton_inActiveImage="@drawable/text_exer"
+        app:sparkbutton_primaryColor="@color/spark_primary_color"
+        app:sparkbutton_secondaryColor="@color/spark_secondary_color" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+
+    <ImageView
+        android:id="@+id/learn_focus"
+        android:layout_width="888dp"
+        android:layout_height="450dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/superblack" />
+
+
+    <ImageView
+        android:id="@+id/learn_focus2"
+        android:layout_width="888dp"
+        android:layout_height="450dp"
+        android:alpha="0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/superblack" />
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/button_learn"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709"
+        app:sparkbutton_activeImage="@drawable/text_learn_black"
+        app:sparkbutton_iconSize="120dp"
+        app:sparkbutton_inActiveImage="@drawable/text_learn"
+        app:sparkbutton_primaryColor="@color/spark_primary_color"
+        app:sparkbutton_secondaryColor="@color/spark_secondary_color" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lot_learn"
+        android:layout_width="166dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="145dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42000002"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="aimsuper.json"
+        app:lottie_loop="true" />
+
+
+    <FrameLayout
+        android:id="@+id/learnframe1"
+        android:layout_width="210dp"
+        android:layout_height="115dp"
+        android:alpha="0"
+        android:background="@drawable/custom_buttom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999">
+
+        <VideoView
+            android:id="@+id/vdo_learn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></VideoView>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/learnframe2"
+        android:layout_width="210dp"
+        android:layout_height="115dp"
+        android:alpha="0"
+        android:background="@drawable/custom_buttom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999">
+
+        <VideoView
+            android:id="@+id/vdo_learn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></VideoView>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/learnframe3"
+        android:layout_width="225dp"
+        android:layout_height="100dp"
+        android:alpha="0"
+        android:background="@drawable/custom_buttom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74">
+
+        <VideoView
+            android:id="@+id/vdo_learn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></VideoView>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/learnframe4"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="550dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <VideoView
+            android:id="@+id/vdo_learn4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></VideoView>
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/exer_focus2"
+        android:layout_width="888dp"
+        android:layout_height="450dp"
+        android:alpha="0.95"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/superblack" />
+
+    <ImageView
+        android:id="@+id/exer_focus"
+        android:layout_width="888dp"
+        android:layout_height="450dp"
+        android:alpha="0.95"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/superblack" />
+
+    <TextView
+        android:id="@+id/tap"
+        android:layout_width="628dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="280dp"
+        android:alpha="0"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:text="Touch screen to continue.."
+        android:textColor="@color/gray_btn_bg_color"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/button_exer_focus"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861"
+        app:sparkbutton_activeImage="@drawable/text_exer_black"
+        app:sparkbutton_iconSize="163dp"
+        app:sparkbutton_inActiveImage="@drawable/text_exer"
+        app:sparkbutton_primaryColor="@color/spark_primary_color"
+        app:sparkbutton_secondaryColor="@color/spark_secondary_color" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lot_exer"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="145dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="aimblue.json"
+        app:lottie_loop="true" />
+
+
+    <FrameLayout
+        android:id="@+id/exerframe1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="550dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <VideoView
+            android:id="@+id/vdo_exer1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></VideoView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/exerframe2"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="400dp"
+        android:layout_marginBottom="134dp"
+        android:alpha="0"
+        android:background="@drawable/custom_buttom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <VideoView
+            android:id="@+id/vdo_exer2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></VideoView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/exerframe3"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginEnd="400dp"
+        android:alpha="0"
+        android:background="@drawable/custom_buttom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <VideoView
+            android:id="@+id/vdo_exer3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></VideoView>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/black_back_focus"
+        android:layout_width="888dp"
+        android:layout_height="450dp"
+        android:alpha="0.95"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/superblack" />
+
+    <ImageView
+        android:id="@+id/back_focus"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lot_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="aimcolor.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/SKIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="@font/baloo"
+        android:text="SKIP"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

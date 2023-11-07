@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bluedark">#303441</color>
+    <color name="bluelight">#49ACD5</color>
+    <color name="green">#45BC62</color>
+    <color name="orange">#EAAD43</color>
+
+
+    <!-- color for button style-->
+    <color name="gradient_start_color">#4C84FF</color>
+    <color name="gradient_end_color">#18A3FE</color>
+
+
+    <!-- for tab_indicator-->
+    <color name="gradient_tap_indicator_gray">#C0C0C0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+    <color name="purple">#6F00FF</color>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="indicator_colors">
+        <item>#FFFFFFFF</item>
+        <!--Default-->
+        <item>@color/purple</item>
+        <!--Wrong-->
+        <item>@color/colorPrimaryDark</item>
+        <!--Right-->
+        <item>@color/colorAccent</item>
+        <!--Skipped-->
+        <item>@color/colorAccent</item>
+        <!--Current-->
+        <item>@color/colorPrimaryDark</item>
+        <!--Processed-->
+
+    </array>
+    <array name="border_state_colors">
+        <item>@color/colorPrimaryDark</item>
+        <!--Default-->
+        <item>@color/purple</item>
+        <!--Wrong-->
+        <item>@color/colorPrimaryDark</item>
+        <!--Right-->
+        <item>@color/colorAccent</item>
+        <!--Skipped-->
+        <item>@color/colorAccent</item>
+        <!--Current-->
+        <item>@color/colorPrimaryDark</item>
+        <!--Processed-->
+
+    </array>
+
+    <array name="text_state_colors">
+        <item>@color/title_color_dark</item>
+        <!--Default-->
+        <item>@color/purple</item>
+        <!--Wrong-->
+        <item>@color/green</item>
+        <!--Right-->
+        <item>@color/title_color_dark</item>
+        <!--Skipped-->
+        <item>@color/title_color_dark</item>
+        <!--Current-->
+        <item>@color/title_color_dark</item>
+        <!--Processed-->
+    </array>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rock"
+    tools:context=".Main4Activity"
+    android:id="@+id/mylayout">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="1484dp"
+        android:layout_height="757dp"
+        android:layout_marginTop="560dp"
+        android:alpha=".40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="988dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="โน๊ตคืออะไร ?"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="882dp"
+        android:layout_height="327dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="86dp"
+        android:text="ตัวโน๊ตทั้งหมดตามที่เราคุ้นเคยคือ โด เร มี ฟา ซอล ลา ที โด ซึ่งโน๊ตแต่ละตัว \nถูกเรียกอีกชื่อหนึ่งโดยนำเอาตัวอักษรภาษาอังกฤษมาตั้ง ดังนี้ \n\n C = โด \n D = เร \n E = มี \n F = ฟา \n G = ซอล \n A = ลา \n B = ที"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="64dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="758dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="128dp"
+        android:text="มีโน๊ตอยู่ 2 คู่ ที่ไม่มีตัวขั้นกลาง นั่นก็คือ E กับ F และ B กับ C \n ทำไมถึงเป็นเช่นนี้นะเหรอครับ กระผมก็ไม่ทราบเหมือนกัน \n เพราะเป็นสิ่งที่ถูกกำหนดขึ้นมาจากผู้ที่คิดค้นทฤษฏีดนตรีในยุคแรกครับ \n คล้ายๆ กับสูตรทางคณิตศาสตร์แหละครับ"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginLeft="128dp" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back"
+        android:layout_marginLeft="10dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

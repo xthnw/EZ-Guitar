@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="administrator.androidcai.myapplication">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="false"
+        android:exported="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="EZ Guitar"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,android:label">
+        <activity android:name=".rules"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".game_chord_d"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".game_chord_em"
+            android:screenOrientation="landscape" />
+        <activity android:name=".gamever2_chord_c" />
+        <activity
+            android:name=".main2_guide"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".exer_chordpack10_g"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack10_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack_10_d"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack10_em"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack9_d"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack9_am"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack9_em"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack9_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack8_g"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack8_am"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack8_em"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack8_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack7_dm"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack_7_am"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack7_em"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack7_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack6_d"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack6_am"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack6_em"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack6_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack5_d"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack5_g"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack5_am"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack5_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".table_allchordcancheck"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack4_d"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack4_am"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack4_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack4_g"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack3_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack3_em"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack3_d"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack3_g"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack2_d"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack2_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack2_em"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".exer_chordpack2_g"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Table_Cmaj7"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".chord_block"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Table_E"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Table_A"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Table_D"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_g_round3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_c_round5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_am_round6"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_dm_round5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_g_round2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_am_round5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_g"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_em_round2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_c_round4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_dm_round4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_am_round4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_dm_round3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_c_round3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_dm_round2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_am_round3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_em"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_dm"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_c_round2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_am_round2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_am"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".boardcast_learn"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".remember_chord"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".game_chord_g"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".game_chord_dm"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".game_chord_am"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".game_chord_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Table_G"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Table_Dm"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Table_Am"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Table_Em"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Table_C"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Main7Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Loading_Application"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main6Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".popup_learn"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IntroActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Main5Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Main4Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Main3Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
